@@ -1,0 +1,20 @@
+{
+  "name": "Hack-Quarantine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMNatic/Hack-Quarantine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMNatic/Hack-Quarantine/issues"
+  },
+  "homepage": "https://github.com/CMNatic/Hack-Quarantine#readme"
+}
