@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "profile.proto";
+
+// Describes what a comment will look like
+message Comment {
+    string id = 1;
+    string content = 2;
+    Profile creator = 3;
+}
