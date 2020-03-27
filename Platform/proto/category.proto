@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "stream.proto";
+
+// What a category will look like
+message Category {
+    string id = 1;
+    string name = 2;
+    string description = 3;
+    repeated Stream streams = 4;
+    repeated Comment comments = 5;
+}

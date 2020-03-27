@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "profile.proto";
+
+// Describes what a rating would look like.
+// Typically we want the value to be between 1 - 5
+message Rating {
+    string id = 1;
+    int32 value = 3;
+    Profile creator = 3;
+}
