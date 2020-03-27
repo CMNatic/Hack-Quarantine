@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "rating.proto";
+
+// Describes what a stream would look like
+message Stream {
+    string id = 1;
+    string name = 2;
+    string creatorId = 3;
+    repeated Rating ratings = 4;
+}
